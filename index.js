@@ -33,19 +33,8 @@ var connection = mysql.createConnection({
         name: "action",
         type: "list",
         message: "What would you like to do?",
-        choices: [
-          "View all departments",
-          "View all roles",
-          "View all employees",
-          "Add a department",
-          "Remove department",
-          "Add a role",
-          "Remove a role",
-          "Add an employee",
-          "Remove an employee",
-          "Update employee role",
-          "Exit"
-        ]
+        choices:
+         ["View all departments", "View all roles", "View all employees", "Add a department", "Remove department", "Add a role", "Remove a role","Add an employee", "Remove an employee", "Update employee role", "Exit"]
       })
     .then(function(answer) {
         if (answer.action === 'View all departments') {
@@ -158,7 +147,6 @@ function addRole() {
           {
             name: "departmentName",
             type: "list",
-// is there a way to make the options here the results of a query that selects all departments?`
             message: "Which department does this role fall under?",
             choices: function() {
                 var choicesArray = [];
@@ -171,7 +159,7 @@ function addRole() {
               }
           }
           ]) 
-// in order to get the id here, i need a way to grab it from the departments table 
+
         .then(function(answer) {
         const department = answer.departmentName;
         connection.query('SELECT * FROM DEPARTMENT', function(err, res) {
