@@ -68,6 +68,8 @@ var connection = mysql.createConnection({
             removeEmployee();
         } else if (answer.action === 'Update employee role') {
             updateRole();
+        } else if (answer.action === 'Update employee manager') {
+            updateEmployeeManger();
         }
         else if (answer.action === 'Exit') {
             connection.end();
@@ -286,6 +288,21 @@ async function addEmployee() {
             })
         })
 })
+}
+function removeEmployee() {
+    inquirer
+    .prompt({
+        name: "Remove employee",
+        type: "input",
+        Message: "what is the name of the removing employee"
+    })
+    .then(function(answer) {
+        var query = "REMOVE FROM employee (name) VALUES (?)";
+        connection.query(query, answer.employee, function(err, res) {
+            console.log(`you have removed this dpartment: ${(answer.employee).toUpperCase()}.`)
+        })
+        viewDepartments();
+    })
 }
 
 function updateRole() {
