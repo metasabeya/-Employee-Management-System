@@ -1,5 +1,23 @@
 # -Employee-Management-System
 
+
+.It is  a command line application that uses  `MySQL`,`node`,  and ,`express` to allow a user to see and update a MySQL database. 
+
+
+you have to Start by installing both  dependencies which is front and backend. 
+
+While in this directory, run the following command:
+
+```
+npm install
+```
+
+This should install node modules within the server and the client folder.
+
+After both installations complete, run the following command in your terminal:
+
+```
+node server
 department:
 
 -d - INT PRIMARY KEY
