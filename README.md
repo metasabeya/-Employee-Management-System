@@ -8,16 +8,19 @@ you have to Start by installing both  dependencies which is front and backend.
 
 While in this directory, run the following command:
 
-```
+
 npm install
-```
+
 
 This should install node modules within the server and the client folder.
 
 After both installations complete, run the following command in your terminal:
 
-```
+
 node server
+
+![Screenshot (246)](https://user-images.githubusercontent.com/65740871/93002320-6364c480-f4f3-11ea-948b-251f94efeeaa.png)
+
 department:
 
 -d - INT PRIMARY KEY
