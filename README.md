@@ -2,10 +2,10 @@
 
 ![Screenshot (246)](https://user-images.githubusercontent.com/65740871/93002320-6364c480-f4f3-11ea-948b-251f94efeeaa.png)
 
-.It is  a command line application that uses  `MySQL`,`node`,  and ,`express` to allow a user to see and update a MySQL database. 
+.It is  a command line application that uses  MySQL, node, and express to allow a user to see and update a MySQL database. 
 
 
-you have to Start by installing both  dependencies which is front and backend. 
+-you have to Start by installing both  dependencies which is front and backend. 
 
 While in this directory, run the following command:
 
@@ -53,6 +53,10 @@ Build a command-line application that at a minimum allows the user to:
 .View departments, roles, employees
 
 .Update employee roles
+
+
+-Usage:
+To use this you can download or clone the repo.
 
 links
 
