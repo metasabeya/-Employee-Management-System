@@ -2,6 +2,8 @@
 
 ![Screenshot (246)](https://user-images.githubusercontent.com/65740871/93002320-6364c480-f4f3-11ea-948b-251f94efeeaa.png)
 
+![employee](https://user-images.githubusercontent.com/65740871/93008960-5ddd9d80-f538-11ea-8f35-ad875a4a99da.gif)
+
 .It is  a command line application that uses  MySQL, node, and express to allow a user to see and update a MySQL database. 
 
 
