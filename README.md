@@ -53,6 +53,12 @@ Build a command-line application that at a minimum allows the user to:
 
 .Update employee roles
 
+links
 
+
+Github link: https://github.com/metasabeya/Employee-Management-system.git
+
+
+video link:https://drive.google.com/file/d/12Q8GaVi3FU1Qc_06n0ESoZ1QWd3_k7U6
 
 
